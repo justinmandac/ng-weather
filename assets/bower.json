@@ -1,0 +1,14 @@
+{
+  "name": "assets",
+  "authors": [
+    "Bien Justin Mandac <justinmandac@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "angularjs#^1.6.1"
+  }
+}
