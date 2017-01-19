@@ -7,16 +7,14 @@
   </head>
   <body ng-app="ngTutorial">
     <div class="outer">
-      <div class="inner" ng-controller="mainController">
-        <div class="coordinates">
-          <div class="coordinates__lat">
-            Latitude: {{coords.latitude}}
-          </div>
-          <div class="coordinates__long">
-            Longitude: {{coords.longitude}}
-          </div>
+      <div class="inner" ng-controller="mainController as main">
+        {{location}}
+        <div>
+          {{data.currently.apparentTemperature}}
         </div>
       </div>
+
+
     </div>
   </body>
   <script src="assets/bower_components/angular/angular.js" charset="utf-8"></script>
